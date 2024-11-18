@@ -1,0 +1,41 @@
+﻿context_status,model,turn,accuracy,relevance,grammatical_correctness,answer_formatting,comments
+no_context,gemma,0,5,3,3,3,missed out on one of the topics asked - decentralization
+no_context,gemma,1,5,5,3,3,
+no_context,gemma,2,5,2.5,3,3,missed out on half the question
+no_context,gemma,3,5,5,2,2,extra spaces in answer; conclusion paragraph had parts of original answer - not desired
+no_context,gemma,4,4,5,1.5,2.5,slight accuracy issue; extra spaces; misformatted headings
+no_context,llama,0,5,2.5,2.8,3,deviated from the topic; invalid subheading; small tense error
+no_context,llama,1,5,4,3,3,invalid subheading; no conclusion
+no_context,llama,2,5,4,3,2.5,went out of topic; mistake in markdown
+no_context,llama,3,5,2.5,3,2.5,didn't answer question fully; extra stuff in answer; markdown errors
+no_context,llama,4,4,4.5,3,3,invalid subheading
+no_context,mistral,0,5,5,3,3,
+no_context,mistral,1,5,5,3,3,
+no_context,mistral,2,5,3,3,3,didn't answer the query completely
+no_context,mistral,3,5,5,2.8,3,small grammatical error
+no_context,mistral,4,5,5,3,3,
+no_context,qwen,0,5,3,3,3,missed out on certain parts of the answer
+no_context,qwen,1,5,5,3,3,
+no_context,qwen,2,5,3,3,3,didn't answer the query completely
+no_context,qwen,3,5,5,3,3,
+no_context,qwen,4,5,4.5,3,3,had extra undesired conclusion text
+context,gemma,0,3,2,2,3,model didn't understand the document but instead branched out into other parts of the document while missing out on key information; still has a problem with extra spaces and small grammatical errors
+context,gemma,1,3,1.5,1,3,"model didn't understand the document but instead branched out into other parts of the document while missing out on key information; badly structured sentencing, extra spacing, tense errors"
+context,gemma,2,4,1,1,3,"model didn't understand the document but instead branched out into other parts of the document while missing out on key information; badly structured sentencing, extra spacing, tense errors"
+context,gemma,3,4,1.5,1,3,"model didn't understand the document but instead branched out into other parts of the document while missing out on key information; badly structured sentencing, extra spacing, tense errors"
+context,gemma,4,5,4,1.5,3,"badly structured sentencing, extra spacing"
+context,llama,0,4,3,1.5,2.5,"small structuring error, branched out; slight grammatical errors and tense issues"
+context,llama,1,5,3.5,1.5,1.5,stuck to the topic at hand; slight grammatical errors; markdown errors
+context,llama,2,3,2,1,1,didn't stick to the topic; sentence structure errors; issues with grammar
+context,llama,3,3,2.5,1.5,3,no conclusion; didn't stick to source material; grammatical errors
+context,llama,4,5,3.5,2,2,markdown errors; slight deviation from source material; grammatical errors
+context,mistral,0,3,2,1.5,1,answer was confusing; formatted wrongly; had undesired elements
+context,mistral,1,3,0,2,0,answer was not related to the question; formatting was horrible; extra spacing
+context,mistral,2,4,0.5,2,1.5,answer was not related to the question; slight grammatical errors
+context,mistral,3,4,0,2.5,2,answer was not related to the question; slight grammatical errors
+context,mistral,4,4,2,2.5,2,answer was somewhat related to the query
+context,qwen,0,5,2.5,2.5,1.5,answer isn't fully relevant to the query; formatting issues
+context,qwen,1,5,4,2,3,answer is relevant; slight grammatical issues
+context,qwen,2,4,3,1.5,3,answer is relevant; deviating from source; grammatical errors
+context,qwen,3,5,4,2,3,answer is relevant; a little bit of extra answering is there
+context,qwen,4,5,3,2.5,2,answer is somewhat relevant
